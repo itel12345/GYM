@@ -14,7 +14,7 @@ html,body{
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -119,10 +119,10 @@ input:checked ~ .dropdown-content{
 }
 .big-text{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 200px;
 }
 .big-text h1{
-    font-size: 5vw;
+    font-size: 4.7vw;
     text-align: center;
     font-weight: normal;
 }
