@@ -6,7 +6,6 @@
 html,body{
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* ✅ Prevents sideways scroll */
   scroll-behavior: smooth;
 }
 .header .header-dis{
@@ -15,7 +14,7 @@ html,body{
     background-color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     padding-bottom: 20px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -114,7 +113,7 @@ input:checked ~ .dropdown-content{
 }
 .big-text{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 .big-text h1{
     font-size: 5vw;
