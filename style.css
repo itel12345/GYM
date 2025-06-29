@@ -18,9 +18,15 @@ html,body{
     top: 0;
     left: 0;
     width: 100%;
-    background: white; 
     z-index: 999; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* 🔥 Neon dark gradient */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    color: white;
+    padding: 20px 30px;
 }
 .header-text{
     display: flex;
@@ -176,7 +182,7 @@ input:checked ~ .dropdown-content{
         display: none;
     }
     .big-text {
-        margin-top: 100px;
+        margin-top: 20px;
     }
     .big-text h1{
         font-size: 3em;
