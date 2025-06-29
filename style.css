@@ -121,6 +121,12 @@ input:checked ~ .dropdown-content{
     text-align: center;
     margin-top: 200px;
 }
+.big-rep{
+    font-size: 24px;
+}
+.rep{
+    display: none;
+}
 .big-text h1{
     font-size: 4.7vw;
     text-align: center;
@@ -181,13 +187,22 @@ input:checked ~ .dropdown-content{
         margin-right: 0;
         display: none;
     }
-    .big-text {
-        margin-top: 20px;
+    .big-text{
+        margin-top: 85px;
     }
     .big-text h1{
         font-size: 3em;
     }
 }
+@media (min-width: 768px) {
+    .big-rep{
+        font-size: 48px;
+    }
+    .rep{
+        display: inline;
+    }
+}
+
 
 
 
